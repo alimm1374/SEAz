@@ -21,4 +21,20 @@ class Test
             System.out.println("Sum: Failed, expected = " + expected + ", result = " + result);
         }
     }
+    private static void testDivide()
+    {
+        int a = 26;
+        int b = 6;
+        int expected = 4;
+        BasicMath bm = new BasicMath();
+        int result = bm.devide(a, b);
+        if (result == expected)
+        {
+            System.out.println("Divide: OK");
+        }
+        else
+        {
+            System.out.println("Divide: Failed, expected = " + expected + ", result = " + result);
+        }
+    }
 }
