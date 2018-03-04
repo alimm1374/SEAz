@@ -3,6 +3,7 @@ class Test
     public static void main(String[] args)
     {
         testSum();
+        testMultiply();
     }
 
     private static void testSum()
